@@ -85,43 +85,88 @@
             </div>
     </section>
 
-    <section id="calendario">
-            <span>CALENDÁRIO</span>
-            <p>Veja nossa disponibilidade de datas para reserva!</p>
-            <div>
+    <section id="calendario">   <!--background verde, com linha branca abaixo-->
+            <span><strong>CALENDÁRIO</strong></span>
+            <p>Veja nossa disponibilidade de datas para reserva! <br>
+            _______________________________________________________________________________________________________________________________________
+            </p>
+            <div class="meses">
                 <div>
-                    janeiro a maio
+                    <div>
+                        <img src="./imgs/calendario/fev.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imgs/calendario/mar.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imgs/calendario/abr.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imgs/calendario/mai.jpg" alt="">
+                    </div>
                 </div>
                 <div>
-                    junho a setembro
+                    <div>
+                        <img src="./imgs/calendario/jun.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imgs/calendario/jul.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imgs/calendario/ago.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imgs/calendario/set.jpg" alt="">
+                    </div>
                 </div>
                 <div>
-                    outubro a janeiro
+                    <div>
+                        <img src="./imgs/calendario/out.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imgs/calendario/nov.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imgs/calendario/dez.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./imgs/calendario/jan2.jpg" alt="">
+                    </div>
                 </div>
             </div>
-            <p>*As datas ocupadas estão circuladas, nas imagens acima.</p>
+            <p>*As datas ocupadas estão destacadas, nas imagens acima.</p>
     </section>
 
-    <section id="localizacao">
-        <span>LOCALIZAÇÃO</span>
-        <p>ENDEREÇO:</p>
-        <p>
-            Entrada Lateral: <br>            
-            Rua Procyon, 73
-        </p>
-        <p>Entrada Principal:            
-            Rua Antares, 26 - Chácara Cruzeiro do Sul Sumaré, SP - CEP: <br>
-            13176-205
-        </p>
+    <section id="localizacao"> <!--background branco / EXIBIR MAPA AO LADO? OU CENTRALIZAR AS INFOS? -->
+        <span><strong>LOCALIZAÇÃO</strong></span>
+        <p>_______________________________________________________________________________________________________________________________________</p>
+        <div class="divs">
+            <div>
+                <h1>ENDEREÇO:</h1>
+                
+                    <h1>Entrada Lateral:</h1>
+                    Rua Procyon, 73
+                </p>
+                <h1>Entrada Principal:  </h1>          
+                    Rua Antares, 26 - Chácara Cruzeiro do Sul Sumaré, SP - CEP: <br>
+                    13176-205
+            </div>
+            <div>
+                <!-- CASO QUEIRA COLOCAR A IMAGEM DO MAPA, INSERIR NESSA DIV -->
+                <img src="./imgs/calendario/set.jpg" alt="">
+            </div>
+        </div>
     </section>
 
     <section id="reserva">
-        <span>FAÇA SUA RESERVA</span>
-        <p>Preencha o formulário abaixo com seus dados que retornaremos o <br>
-            contato em até 24h. 
-        </p>
+        <form id="form" class="form" action="">
+            <div>
+                <span><strong>FAÇA SUA RESERVA</strong></span>
+                <p>Preencha o formulário abaixo com seus dados que retornaremos o <br>
+                    contato em até 24h. 
+                </p>
+            </div>
 
-        <form id="form" action="">
             <input type="text" placeholder="Nome">
             <input type="tel" placeholder="Whatsapp com DDD">
             <input type="date" placeholder="Data do interesse para reserva">
@@ -131,8 +176,10 @@
     </section>
 
     <footer>
-        © 2020 - Chácara da 'Dengo' - Todos os direitos reservados - Desenvolvido por <a href="https://github.com/AlissonL11" target="blak">AlissonL.</a>
+        © 2020 - Chácara da 'Dengo' - Todos os direitos reservados - Desenvolvido por&nbsp;<strong><a href="https://github.com/AlissonL11" target="_blank">AlissonL11.</a></strong>
     </footer>
+      
+      
 
 </body>
 <script src="script.js"></script>

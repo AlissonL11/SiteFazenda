@@ -4,6 +4,9 @@ body{
     width: 100%;
     font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
 }
+p, span, h1, h2 {
+    user-select: none;
+  }
 
 /* menu navegação */
 
@@ -56,7 +59,7 @@ body{
     }
     #sobre p{
         font-size: 40px;
-        background-color: #6c82319f;
+        background-color: #5b7023cb;
         padding: 10px;
         border-radius: 15px;
         margin: 0px auto;
@@ -64,7 +67,7 @@ body{
         margin-top: -600px;
     }
     #sobre span {
-        background-color: #6c82319f;
+        background-color: #5b7023cb;
         padding: 10px;
         border-radius: 15px;
         font-size: 20px;
@@ -113,8 +116,7 @@ body{
     place-items: center;
     text-align: center;
     color: #6c8231;
-    
-
+    width: 100%;
 }
     #sustentabilidade .text1 strong{
         font-size: 50px;
@@ -131,7 +133,8 @@ body{
         display: grid;
         grid-auto-flow: column;
         background-image: url(imgs/top3.jpg); /* IMAGEM DE BACKGROUD */
-        width: 94.5%;
+
+        width: 94.7%;
         padding: 50px;
         color: white;
         place-content: center;  
@@ -156,4 +159,147 @@ body{
 
 /* EDIÇÃO DO 'CALENDÁRIO' */
 
+#calendario {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: #6c8231cc ;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+    #calendario strong {
+        font: bolder;
+        font-weight: 800;
+        font-size: 50px;
+    }
+    #calendario p {
+        font-size: 25px;
+    }
+    #calendario p a{
+        color: white;
+    }
+    .meses div {
+        display: flex;
+        justify-content: space-around;
+    }
+    #calendario div img {
+        width: 70%;
+        padding: 20px;
+    }
 
+    /* MEIO Q TRANSFORMA O CALENDÁRIO EM BOTÕES*/
+    /*#calendario div img:hover {            
+        box-shadow: 4px 4px 6px 4px #2A3342;
+        cursor: pointer;
+    }*/
+
+/* EDIÇÃO DA 'LOCALIZAÇÃO' */
+
+#localizacao {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: #6c8231;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+    #localizacao strong{
+        font-size: 50px;
+        font-weight: 800;
+    }
+    #localizacao p {
+        font-size: 25px;
+    }
+    .divs {
+        display: flex;
+        justify-content: space-between;
+    }
+    .divs img {
+        margin-left: 500px;
+    }
+
+/* EDIÇÃO DO 'FAÇA A SUA RESERVA' */
+
+#reserva{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: auto;
+    background-image: url(imgs/top44.jpg);
+    height: 800px;
+    padding:35px;
+
+}
+    #form {
+        display: grid;
+        place-items: center;
+        background-color: #6c823185;
+        width: fit-content;
+        height: fit-content;
+        margin: auto;
+        padding: 50px;
+        border-radius: 30px;
+    }
+    #form span{
+        font-size: 50px;
+        font-weight: 800;
+    }
+    #form div{
+        color: white;
+    }
+    #form  div p{
+        font-size: 25px;
+    }
+    #form input {
+        width: 70%;
+        height: 60px;
+        border-radius: 15px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    #form input::placeholder{
+        color: rgba(57, 57, 57, 0.5);
+    }
+    #form input:focus{
+        box-shadow: 4px 4px 6px 4px #2A3342;
+    }
+    #form button {
+        box-sizing: border-box;
+        width: 15vw;
+        height: 7vh;
+        background: white;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #6c8231;
+        bottom: auto;
+    }
+    #form button:hover {
+        background:#4b5f15 ;
+        color: white;
+        transition: 0.3s ease-in-out; 
+        cursor: pointer;
+    }
+
+/* EDIÇÃO DO 'RODAPÉ' (FOOTER) */
+
+footer{
+    color: white;
+    background-color: #4b5f15;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    padding: 20px;
+    grid-auto-flow: row;
+}
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
