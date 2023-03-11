@@ -1,10 +1,16 @@
-const formulario = document.querySelector('#form');
+const loginForm = document.getElementById ('form1');
+const cadastroForm = document.getElementById ('form2');
+
+const login = document.getElementById("loginBtn");
+const cadastro = document.getElementById('cadastroBtn');
 
 
-formulario.addEventListener("click", function(){
-let inputs = document.getElementsByTagName("input");
+login.addEventListener("click", function(){
+    loginForm.style.visibility = "visible";
+    cadastroForm.style.visibility = "hidden";
+});
 
-for (let i = 0; i < inputs.length; i++) {
-    inputs[i].style.color = "black";
-  }
+cadastro.addEventListener('click', ()=>{
+    cadastroForm.style.visibility = "visible";
+    loginForm.style.visibility = "hidden";
 });

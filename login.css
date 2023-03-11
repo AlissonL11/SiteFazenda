@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat, Arial, Helvetica, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+body{
+    display: flex;
+    width: 100%;
+}
+
+.sec1 {
+    padding-top: 4%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #6c8231a8; */
+
+}
+.sec1 .login{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    margin-bottom: 5%;   
+}
+.login a{
+    text-decoration: none;
+    color: green;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 20px;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+#form1 {
+    display: grid;
+    padding-left: 5%;
+    visibility: hidden;
+    position: relative;
+    align-items: center;
+    
+
+}
+    #form1 label{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    #form1 input{
+ 
+        height: 30px;
+        padding-left: 5px;
+        width: 60%;
+        border-radius: 15px;
+        padding: 10px;
+        border: 0.5px solid black;
+    }
+    #form1 input:focus {
+        box-shadow: 4px 4px 6px 4px #2A3342;
+    }
+    #form1 button{
+        margin-top: 30px;
+        width: 40%;
+        height: 5vh;
+        cursor: pointer;
+        box-sizing: border-box;
+        background: white;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #6c8231;
+    }
+    #form1 button:hover{
+        background:#4b5f15 ;
+        color: white;
+        transition: 0.3s ease-in-out; 
+        cursor: pointer;
+    }
+
+/* form2 */
+    #form2 {        
+        visibility: visible;
+        position: relative;
+        top: -20vh;
+        left: -2.5vw;
+        margin: auto;        
+    }
+        #form2 label{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+        }
+        #form2 input{
+            width: 150%;
+            height: 30px;
+            border-radius: 15px;
+            padding: 10px;
+            border: 0.5px solid black;
+        }
+        #form2 input:focus {
+            box-shadow: 4px 4px 6px 4px #2A3342;
+        }
+        #form2 button{
+            width: 40%;
+            height: 5vh;
+            cursor: pointer;
+            box-sizing: border-box;
+            background: white;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 20px;
+            color: #6c8231;
+            margin-top: 30px;
+           
+        }
+        #form2 button:hover{
+            background:#4b5f15 ;
+            color: white;
+            transition: 0.3s ease-in-out; 
+            cursor: pointer;
+        }
+
+
+
+/* editar a divisão q vai conter a imagem */
+body .sec2 img{
+border: 1px solid green;
+}
+
+
+
