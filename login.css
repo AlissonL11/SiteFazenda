@@ -35,7 +35,7 @@ body{
 
 
 #cadastroBtn {
-    text-decoration: none;
+    text-decoration: underline;
     color: green;
     font-weight: bolder;
     font-size: 40px;
