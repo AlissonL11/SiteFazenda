@@ -24,17 +24,24 @@ body{
     justify-content: center;
     margin-bottom: 5%;   
 }
-.login a{
+#loginBtn {
     text-decoration: none;
     color: green;
     font-weight: bolder;
     font-size: 40px;
     padding-left: 20px;
 }
-.login a:hover{
-    text-decoration: underline;
-}
 
+
+
+#cadastroBtn {
+    text-decoration: none;
+    color: green;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 20px;
+    
+}
 
 
 
