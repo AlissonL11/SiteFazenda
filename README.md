@@ -1,5 +1,5 @@
 # SiteFazenda
-Site feito para uma fazenda (99% em construção)
+Site feito para uma fazenda (Em construção)
 
 ![image](https://user-images.githubusercontent.com/117776291/216741245-8d561d0a-20be-47ce-a0a5-bf64955be21a.png)
 _________________________________________________________________________________________________________________________________________________________________________
