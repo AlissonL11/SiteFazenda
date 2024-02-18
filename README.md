@@ -1,5 +1,5 @@
 # SiteFazenda
-Site feito para uma fazenda (Em construção)
+Site feito para um trabalho acadêmico, como se fosse para alugar uma fazenda (Em construção)
 
 ![image](https://user-images.githubusercontent.com/117776291/216741245-8d561d0a-20be-47ce-a0a5-bf64955be21a.png)
 _________________________________________________________________________________________________________________________________________________________________________
